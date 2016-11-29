@@ -2,8 +2,4 @@ language: php
 php:
   - '7.0'
 
-before_script:
-  - curl -s http://getcomposer.org/installer | php
-  - php phpunit.phar install  
-  
-script: phpunit --configuration build.xml
+script: phpunit tests\LibraryTest.php
