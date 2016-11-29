@@ -2,4 +2,6 @@ language: php
 php:
   - '7.0'
 
-script: phpunit tests/LibraryTest.php
+script: 
+  phpunit tests/LibraryTest.php
+  phpunit tests/UserTest.php
